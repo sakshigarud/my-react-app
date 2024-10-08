@@ -1,0 +1,33 @@
+/* General styles for the Upvote All button */
+.upvote-button {
+    position: fixed;
+    bottom: 20px; /* Position the button near the bottom */
+    right: 20px;  /* Position the button near the right */
+    background-color: #ff4500; /* Reddit orange color */
+    color: #ffffff;  /* White text */
+    border: none;  /* Remove default border */
+    padding: 10px 15px; /* Padding for a better touch area */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for readability */
+    z-index: 9999; /* Ensure it's on top of other elements */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Change background color on hover */
+.upvote-button:hover {
+    background-color: #d84315; /* Darker orange on hover */
+}
+
+/* Styles for the success message after upvoting */
+.success-message {
+    position: fixed; 
+    top: 10px; 
+    right: 10px; 
+    background-color: #28a745; /* Green color */
+    color: #ffffff; 
+    padding: 10px; 
+    border-radius: 5px; 
+    z-index: 9999; 
+    transition: opacity 0.5s ease; /* Smooth fade out */
+}
